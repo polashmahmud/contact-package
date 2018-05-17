@@ -16,5 +16,13 @@
         "psr-4": {
             "Polash\\Contact\\": "src/"
         }
-    }
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Polash\\Contact\\ContactServiceProvider"
+            ]
+        }
+    },
 }
